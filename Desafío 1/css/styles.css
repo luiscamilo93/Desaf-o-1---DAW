@@ -1,0 +1,161 @@
+body{
+    background-color: white;
+}
+
+.hd{
+    background-image:url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.title-hd{
+    text-align: center;
+    line-height: 200px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.frames{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.frame-main{
+    width: 33%;
+    height: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container{
+    border-style: solid;
+    border-color: #2f2c79;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-width: 5px;
+    background-color: white;
+}
+
+.pic-main{
+    text-align: right;
+    background-color: white;
+}
+
+.img-tm{
+    border-radius: 6px;
+}
+
+.title-frm{
+    font-size: 30px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.brf-dscrpt{
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ft{
+    background-color: rgb(37, 40, 53);
+    height: 210px;
+}
+
+.ft-p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 96px;
+}
+
+.frm-art{
+    display: flex;
+}
+
+.art{
+    width: 80%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.img-art{
+    padding-left: 6%;
+}
+
+.img-tm-art{
+    border-radius: 5px;
+}
+
+.title-art{
+    padding-top: 15px;
+    padding-left: 5%;
+    padding-bottom: 10px;
+}
+
+.title-artc{
+    font-size: 30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.art-content{
+    padding-left: 5%;
+    text-align: justify;
+}
+
+.p-art{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.ref{
+    margin-left: 25px;
+    margin-top: 75px;
+    width: 20%;
+    height: 200px;
+    background-color: #f7ac02;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.lnk{
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .frames{
+        display: inline;
+    }
+    
+    .frame-main{
+        width: 85%;
+    }
+
+    .frm-art{
+        display: inline;
+    }
+
+    .art{
+        width: 85%;
+    }
+
+    .ref{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
